@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jeffe\\ProjetoWEB\\SalesWebMVC\\salesWebMvc\\salesWebMvc.csproj": {}
+    "C:\\Users\\jeffe\\ProjetoWEB\\SalesWebMVC\\salesWebMvc\\SalesWebMvc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jeffe\\ProjetoWEB\\SalesWebMVC\\salesWebMvc\\salesWebMvc.csproj": {
+    "C:\\Users\\jeffe\\ProjetoWEB\\SalesWebMVC\\salesWebMvc\\SalesWebMvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jeffe\\ProjetoWEB\\SalesWebMVC\\salesWebMvc\\salesWebMvc.csproj",
-        "projectName": "salesWebMvc",
-        "projectPath": "C:\\Users\\jeffe\\ProjetoWEB\\SalesWebMVC\\salesWebMvc\\salesWebMvc.csproj",
+        "projectUniqueName": "C:\\Users\\jeffe\\ProjetoWEB\\SalesWebMVC\\salesWebMvc\\SalesWebMvc.csproj",
+        "projectName": "SalesWebMvc",
+        "projectPath": "C:\\Users\\jeffe\\ProjetoWEB\\SalesWebMVC\\salesWebMvc\\SalesWebMvc.csproj",
         "packagesPath": "C:\\Users\\jeffe\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\jeffe\\ProjetoWEB\\SalesWebMVC\\salesWebMvc\\obj\\",
         "projectStyle": "PackageReference",
@@ -42,6 +42,16 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
