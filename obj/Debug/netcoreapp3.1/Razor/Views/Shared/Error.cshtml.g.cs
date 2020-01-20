@@ -21,7 +21,7 @@ using salesWebMvc;
 #nullable disable
 #nullable restore
 #line 2 "C:\Users\jeffe\ProjetoWEB\SalesWebMVC\salesWebMvc\Views\_ViewImports.cshtml"
-using salesWebMvc.Models.ViewModels;
+using salesWebMvc.Models.ViewModels.ViewModels;
 
 #line default
 #line hidden
