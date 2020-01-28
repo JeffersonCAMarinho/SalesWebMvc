@@ -311,3 +311,4 @@ C:\Users\jeffe\ProjetoWEB\SalesWebMvc\bin\Debug\netcoreapp3.1\runtimes\win\lib\n
 C:\Users\jeffe\ProjetoWEB\SalesWebMvc\obj\Debug\netcoreapp3.1\SalesWebMvc.Views.pdb
 C:\Users\jeffe\ProjetoWEB\SalesWebMvc\obj\Debug\netcoreapp3.1\SalesWebMvc.csproj.CopyComplete
 C:\Users\jeffe\ProjetoWEB\SalesWebMvc\obj\Debug\netcoreapp3.1\Razor\Views\Sellers\index.cshtml.g.cs
+C:\Users\jeffe\ProjetoWEB\SalesWebMvc\obj\Debug\netcoreapp3.1\Razor\Views\Sellers\Create.cshtml.g.cs
