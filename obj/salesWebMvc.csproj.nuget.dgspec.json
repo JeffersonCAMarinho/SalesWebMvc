@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jeffe\\ProjetoWEB\\SalesWebMvc\\SalesWebMvc.csproj": {}
+    "C:\\Users\\Jefferson Marinho\\ProjetoWeb\\SalesWebMvc\\SalesWebMvc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jeffe\\ProjetoWEB\\SalesWebMvc\\SalesWebMvc.csproj": {
+    "C:\\Users\\Jefferson Marinho\\ProjetoWeb\\SalesWebMvc\\SalesWebMvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jeffe\\ProjetoWEB\\SalesWebMvc\\SalesWebMvc.csproj",
+        "projectUniqueName": "C:\\Users\\Jefferson Marinho\\ProjetoWeb\\SalesWebMvc\\SalesWebMvc.csproj",
         "projectName": "SalesWebMvc",
-        "projectPath": "C:\\Users\\jeffe\\ProjetoWEB\\SalesWebMvc\\SalesWebMvc.csproj",
-        "packagesPath": "C:\\Users\\jeffe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jeffe\\ProjetoWEB\\SalesWebMvc\\obj\\",
+        "projectPath": "C:\\Users\\Jefferson Marinho\\ProjetoWeb\\SalesWebMvc\\SalesWebMvc.csproj",
+        "packagesPath": "C:\\Users\\Jefferson Marinho\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jefferson Marinho\\ProjetoWeb\\SalesWebMvc\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\jeffe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jefferson Marinho\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -63,7 +62,7 @@
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[3.1.0, )"
+              "version": "[3.1.1, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
@@ -88,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
