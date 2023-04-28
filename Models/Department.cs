@@ -1,10 +1,10 @@
-﻿using System;
+﻿using SalesWebMvc.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
-using SalesWebMvc.Models;
 
-namespace salesWebMvc.Models {
+namespace salesWebMvc.Models
+{
     public class Department
     {
         public int Id { get; set; }
@@ -22,7 +22,7 @@ namespace salesWebMvc.Models {
             Name = name;
         }
 
-        public void AddSeller (Seller seller)
+        public void AddSeller(Seller seller)
         {
             Sellers.Add(seller);
         }

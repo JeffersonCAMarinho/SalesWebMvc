@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using salesWebMvc.Models;
 using SalesWebMvc.Models;
 using SalesWebMvc.Models.ViewModels;
 using SalesWebMvc.Services;
 using SalesWebMvc.Services.Exceptions;
+using System.Collections.Generic;
 
 namespace SalesWebMvc.Controllers
 {
@@ -77,26 +74,26 @@ namespace SalesWebMvc.Controllers
 
         public IActionResult Edit(int? id)
         {
-            if(id ==null)
+            if (id == null)
             {
                 return NotFound();
             }
 
             var obj = _sellerService.FindbyId(id.Value);
-            if(obj == null)
+            if (obj == null)
             {
                 return NotFound();
             }
 
             List<Department> departments = _departmentService.FindAll();
-            SellerFormViewModel viewModel = new SellerFormViewModel { Seller = obj, Departments = departments};
+            SellerFormViewModel viewModel = new SellerFormViewModel { Seller = obj, Departments = departments };
             return View(viewModel);
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Edit(int id, Seller seller)
         {
-            if(id != seller.Id)
+            if (id != seller.Id)
             {
                 return BadRequest();
             }
@@ -104,7 +101,8 @@ namespace SalesWebMvc.Controllers
             {
                 _sellerService.Update(seller);
                 return RedirectToAction(nameof(Index));
-            }catch(NotFoundException e)
+            }
+            catch (NotFoundException)
             {
                 return NotFound();
             }

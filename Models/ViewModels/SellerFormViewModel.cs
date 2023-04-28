@@ -1,7 +1,5 @@
-﻿using System;
+﻿using salesWebMvc.Models;
 using System.Collections.Generic;
-using salesWebMvc.Models;
-using System.Threading.Tasks;
 
 namespace SalesWebMvc.Models.ViewModels
 {
