@@ -1,4 +1,4 @@
-﻿using salesWebMvc.Models;
+﻿using SalesWebMvc.Models;
 using SalesWebMvc.Models;
 using SalesWebMvc.Models.Enums;
 using System;

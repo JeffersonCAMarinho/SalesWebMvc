@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace salesWebMvc.Models
+namespace SalesWebMvc.Models
 {
     public class Department
     {

@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using salesWebMvc.Models;
+using SalesWebMvc.Models;
 using SalesWebMvc.Models;
 using System.Collections.Generic;
 using System.Linq;

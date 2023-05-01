@@ -8,7 +8,7 @@ using SalesWebMvc.Data;
 using SalesWebMvc.Models;
 using SalesWebMvc.Services;
 
-namespace salesWebMvc
+namespace SalesWebMvc
 {
     public class Startup
     {
